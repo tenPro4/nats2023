@@ -1,0 +1,14 @@
+{
+  "server_name": "nats-server",
+  "host": "0.0.0.0",
+  "port": 4871,
+  "max_connections": 65536,
+  "http_port": 4333,
+  "http_base_path": "",
+  "https_port": 0,
+  "jetstream": {
+    "store_dir": "./jsdata",
+    "max_mem": "1G",
+    "max_file": "10G"
+  }
+}
